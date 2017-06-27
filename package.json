@@ -1,0 +1,33 @@
+{
+  "name": "mapping",
+  "version": "1.0.0",
+  "description": "All Node Js Mappings With Using Sequelize and MYSQL",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "getter-setter": "^0.2.1",
+    "mysql": "^2.13.0",
+    "sequelize": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "mapping": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PadmParmar/Mappings.git"
+  },
+  "keywords": [
+    "mapping"
+  ],
+  "author": "PADM $ MP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PadmParmar/Mappings/issues"
+  },
+  "homepage": "https://github.com/PadmParmar/Mappings#readme"
+}
